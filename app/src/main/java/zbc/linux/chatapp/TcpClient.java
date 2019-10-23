@@ -18,7 +18,7 @@ public class TcpClient implements Runnable {
 
 
 
-    public static final String SERVER_IP = "10.108.137.151";
+    public static final String SERVER_IP = "192.168.0.134";
     public static final int SERVER_PORT = 4444;
     private String mServerMessage;
     private OnMessageReceived mMessageListener = null;
